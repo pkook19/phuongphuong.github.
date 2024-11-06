@@ -1,0 +1,849 @@
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&display=swap");
+.bg {
+  width: 1920px;
+  height: 1080px;
+  background-color: #166c13;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: bgmove;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes bgmove {
+  0% {
+    background-color: #166c13;
+  }
+  33% {
+    background-color: #06210d;
+  }
+  66% {
+    background-color: #06210d;
+  }
+  100% {
+    background-color: #166c13;
+  }
+}
+.window {
+  width: 316px;
+  height: 420px;
+  background-color: #ffca4f;
+  position: absolute;
+  top: 252px;
+  left: 516px;
+  animation-name: windowmove;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes windowmove {
+  0% {
+    background-color: #ffca4f;
+  }
+  33% {
+    background-color: #6746eb;
+  }
+  66% {
+    background-color: #6746eb;
+  }
+  100% {
+    background-color: #ffca4f;
+  }
+}
+.window_sill {
+  width: 316px;
+  height: 48px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 624px;
+  left: 516px;
+  animation-name: windowsillmove;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes windowsillmove {
+  0% {
+    background-color: #ffffff;
+  }
+  33% {
+    background-color: #ff893a;
+  }
+  66% {
+    background-color: #ffffff;
+  }
+  100% {
+    background-color: #ffffff;
+  }
+}
+.sun {
+  width: 76px;
+  height: 76px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 338px;
+  left: 625px;
+  animation-name: sunmove;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes sunmove {
+  0% {
+    left: 625px;
+  }
+  100% {
+    left: 833px;
+  }
+}
+.sun2 {
+  width: 76px;
+  height: 76px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 338px;
+  left: 440px;
+  animation-name: sun2move;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 6s;
+}
+@keyframes sun2move {
+  0% {
+    left: 440px;
+  }
+  100% {
+    left: 625px;
+  }
+}
+.my_img3 {
+  position: absolute;
+  top: 337px;
+  left: 463px;
+  animation-name: moonmove;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+@keyframes moonmove {
+  0% {
+    left: 463px;
+  }
+  50% {
+    left: 649px;
+  }
+  100% {
+    left: 833px;
+  }
+}
+.window_right {
+  width: 39px;
+  height: 372px;
+  background-color: #42a1ff;
+  position: absolute;
+  top: 252px;
+  left: 793px;
+  animation-name: windowrightmove;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes windowrightmove {
+  0% {
+    background-color: #42a1ff;
+  }
+  33% {
+    background-color: #6955b8;
+  }
+  66% {
+    background-color: #42a1ff;
+  }
+  100% {
+    background-color: #42a1ff;
+  }
+}
+.window_top {
+  width: 306px;
+  height: 31px;
+  background-color: #166c13;
+  position: absolute;
+  top: 252px;
+  left: 516px;
+  animation-name: windowtopmove;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes windowtopmove {
+  0% {
+    background-color: #166c13;
+  }
+  33% {
+    background-color: #06210d;
+  }
+  66% {
+    background-color: #06210d;
+  }
+  100% {
+    background-color: #166c13;
+  }
+}
+.window_top1 {
+  width: 306px;
+  height: 17px;
+  background-color: #06210d;
+  position: absolute;
+  top: 252px;
+  left: 516px;
+  animation-name: windowtop1move;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+@keyframes windowtop1move {
+  0% {
+    top: 252px;
+  }
+  50% {
+    top: 298px;
+  }
+
+  100% {
+    top: 252px;
+  }
+}
+.window_top2 {
+  width: 306px;
+  height: 17px;
+  background-color: #06210d;
+  position: absolute;
+  top: 252px;
+  left: 516px;
+  animation-name: windowtop2move;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+@keyframes windowtop2move {
+  0% {
+    top: 252px;
+  }
+  50% {
+    top: 330px;
+  }
+
+  100% {
+    top: 252px;
+  }
+}
+.window_top3 {
+  width: 306px;
+  height: 17px;
+  background-color: #06210d;
+  position: absolute;
+  top: 252px;
+  left: 516px;
+  animation-name: windowtop3move;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+@keyframes windowtop3move {
+  0% {
+    top: 252px;
+  }
+  50% {
+    top: 362px;
+  }
+
+  100% {
+    top: 252px;
+  }
+}
+.window_top4 {
+  width: 306px;
+  height: 17px;
+  background-color: #06210d;
+  position: absolute;
+  top: 252px;
+  left: 516px;
+  animation-name: windowtop4move;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+@keyframes windowtop4move {
+  0% {
+    top: 252px;
+  }
+  50% {
+    top: 394px;
+  }
+
+  100% {
+    top: 252px;
+  }
+}
+.window_top5 {
+  width: 306px;
+  height: 17px;
+  background-color: #06210d;
+  position: absolute;
+  top: 252px;
+  left: 516px;
+  animation-name: windowtop5move;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+@keyframes windowtop5move {
+  0% {
+    top: 252px;
+  }
+  50% {
+    top: 426px;
+  }
+
+  100% {
+    top: 252px;
+  }
+}
+.window_top6 {
+  width: 306px;
+  height: 17px;
+  background-color: #06210d;
+  position: absolute;
+  top: 252px;
+  left: 516px;
+  animation-name: windowtop6move;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+@keyframes windowtop6move {
+  0% {
+    top: 252px;
+  }
+  50% {
+    top: 458px;
+  }
+
+  100% {
+    top: 252px;
+  }
+}
+.window_shadowing {
+  width: 316px;
+  height: 379px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 701px;
+  left: 516px;
+  animation-name: windoshadowingmove;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes windoshadowingmove {
+  0% {
+    background-color: #ffffff;
+  }
+  33% {
+    background-color: #ff893a;
+  }
+  66% {
+    background-color: #ff893a;
+  }
+  100% {
+    background-color: #ffffff;
+  }
+}
+.shadow_window_top {
+  width: 316px;
+  height: 31px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 1049px;
+  left: 516px;
+  animation-name: shadowwindowmove;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes shadowwindowmove {
+  0% {
+    background-color: #166c13;
+  }
+  33% {
+    background-color: #06210d;
+  }
+  66% {
+    background-color: #06210d;
+  }
+  100% {
+    background-color: #166c13;
+  }
+}
+.shadow_window_top1 {
+  width: 316px;
+  height: 17px;
+  background-color: #06210d;
+  position: absolute;
+  top: 1049px;
+  left: 516px;
+  animation-name: shadowwindowtop1move;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+@keyframes shadowwindowtop1move {
+  0% {
+    top: 1049px;
+  }
+  50% {
+    top: 1017px;
+  }
+
+  100% {
+    top: 1049px;
+  }
+}
+.shadow_window_top2 {
+  width: 316px;
+  height: 17px;
+  background-color: #06210d;
+  position: absolute;
+  top: 1049px;
+  left: 516px;
+  animation-name: shadowwindowtop2move;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+@keyframes shadowwindowtop2move {
+  0% {
+    top: 1049px;
+  }
+  50% {
+    top: 985px;
+  }
+
+  100% {
+    top: 1049px;
+  }
+}
+.shadow_window_top3 {
+  width: 316px;
+  height: 17px;
+  background-color: #06210d;
+  position: absolute;
+  top: 1049px;
+  left: 516px;
+  animation-name: shadowwindowtop3move;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+@keyframes shadowwindowtop3move {
+  0% {
+    top: 1049px;
+  }
+  50% {
+    top: 953px;
+  }
+
+  100% {
+    top: 1049px;
+  }
+}
+.shadow_window_top4 {
+  width: 316px;
+  height: 17px;
+  background-color: #06210d;
+  position: absolute;
+  top: 1049px;
+  left: 516px;
+  animation-name: shadowwindowtop4move;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+@keyframes shadowwindowtop4move {
+  0% {
+    top: 1049px;
+  }
+  50% {
+    top: 921px;
+  }
+
+  100% {
+    top: 1049px;
+  }
+}
+.shadow_window_top5 {
+  width: 316px;
+  height: 17px;
+  background-color: #06210d;
+  position: absolute;
+  top: 1049px;
+  left: 516px;
+  animation-name: shadowwindowtop5move;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+@keyframes shadowwindowtop5move {
+  0% {
+    top: 1049px;
+  }
+  50% {
+    top: 889px;
+  }
+
+  100% {
+    top: 1049px;
+  }
+}
+.shadow_window_top6 {
+  width: 316px;
+  height: 17px;
+  background-color: #06210d;
+  position: absolute;
+  top: 1049px;
+  left: 516px;
+  animation-name: shadowwindowtop6move;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+@keyframes shadowwindowtop6move {
+  0% {
+    top: 1049px;
+  }
+  50% {
+    top: 857px;
+  }
+
+  100% {
+    top: 1049px;
+  }
+}
+.left_box {
+  width: 92px;
+  height: 95px;
+  background-color: #166c13;
+  position: absolute;
+  top: 325px;
+  left: 424px;
+  animation-name: leftboxmove;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes leftboxmove {
+  0% {
+    background-color: #166c13;
+  }
+  33% {
+    background-color: #06210d;
+  }
+  66% {
+    background-color: #06210d;
+  }
+  100% {
+    background-color: #166c13;
+  }
+}
+.right_box {
+  width: 92px;
+  height: 95px;
+  background-color: #166c13;
+  position: absolute;
+  top: 330px;
+  left: 832px;
+  animation-name: rightboxmove;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes rightboxmove {
+  0% {
+    background-color: #166c13;
+  }
+  33% {
+    background-color: #06210d;
+  }
+  66% {
+    background-color: #06210d;
+  }
+  100% {
+    background-color: #166c13;
+  }
+}
+.top_box {
+  width: 9px;
+  height: 283px;
+  background-color: #166c13;
+  position: absolute;
+  left: 810px;
+  top: 0px;
+  animation-name: topboxmove;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes topboxmove {
+  0% {
+    background-color: #166c13;
+  }
+  33% {
+    background-color: #06210d;
+  }
+  66% {
+    background-color: #06210d;
+  }
+  100% {
+    background-color: #166c13;
+  }
+}
+
+.logo_1 {
+  width: 19px;
+  height: 26px;
+  background-color: #166c13;
+  border: 2px solid #ffffff;
+  border-radius: 20%;
+  position: absolute;
+  top: 918px;
+  left: 968px;
+  animation-name: logo1;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes logo1 {
+  0% {
+    background-color: #166c13;
+  }
+  33% {
+    background-color: #06210d;
+  }
+  66% {
+    background-color: #06210d;
+  }
+  100% {
+    background-color: #166c13;
+  }
+}
+.logo_2 {
+  width: 19px;
+  height: 26px;
+  background-color: #166c13;
+  border: 2px solid #ffffff;
+  border-radius: 20%;
+  position: absolute;
+  top: 914px;
+  left: 972px;
+  animation-name: logo2;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes logo2 {
+  0% {
+    background-color: #166c13;
+  }
+  33% {
+    background-color: #06210d;
+  }
+  66% {
+    background-color: #06210d;
+  }
+  100% {
+    background-color: #166c13;
+  }
+}
+.line_1 {
+  width: 2px;
+  height: 301px;
+  background-color: #ffffff;
+  position: absolute;
+}
+
+.traingle_1 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 300px 7px 8px 7px;
+  border-color: transparent transparent #ffffff transparent;
+  position: absolute;
+  left: -6px;
+}
+.line-1-container {
+  width: 10px;
+  height: 100px;
+  top: 264px;
+  left: 813px;
+  position: absolute;
+  transform: rotate(0deg);
+  transform-origin: 50% 0;
+  animation-name: line1containermove;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+@keyframes line1containermove {
+  0% {
+    top: 264px;
+  }
+
+  100% {
+    top: 58px;
+  }
+}
+
+.line_2 {
+  width: 2px;
+  height: 300px;
+  background-color: #166c13;
+  position: absolute;
+  animation-name: line2move;
+  animation-duration: 14s;
+  animation-fill-mode: forwards;
+}
+@keyframes line2move {
+  0% {
+    background-color: #166c13;
+  }
+  33% {
+    background-color: #ffffff;
+  }
+  66% {
+    background-color: #166c13;
+  }
+  100% {
+    background-color: #166c13;
+  }
+}
+
+.traingle_2 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 517px 7px 8px 7px;
+  border-color: transparent transparent #166c13 transparent;
+  position: absolute;
+  top: -7px;
+  left: -6px;
+  transform: rotate(180deg);
+  animation-name: traingle2move;
+  animation-duration: 14s;
+  animation-fill-mode: forwards;
+}
+@keyframes traingle2move {
+  0% {
+    border-color: transparent transparent #166c13 transparent;
+  }
+  33% {
+    border-color: transparent transparent #ffffff transparent;
+  }
+  66% {
+    border-color: transparent transparent #166c13 transparent;
+  }
+  100% {
+    border-color: transparent transparent #166c13 transparent;
+  }
+}
+
+.meo {
+  position: absolute;
+  top: 484px;
+  left: 622px;
+}
+
+.bongmeo {
+  position: absolute;
+  top: 690px;
+  left: 594px;
+  animation-name: bongmeo;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes bongmeo {
+  0% {
+    fill: #166c13;
+    stroke: #166c13;
+  }
+  33% {
+    fill: #06210d;
+    stroke: #06210d;
+  }
+  66% {
+    fill: #06210d;
+    stroke: #06210d;
+  }
+  100% {
+    fill: #166c13;
+    stroke: #166c13;
+  }
+}
+
+.nxb {
+  font-family: "Allerta Stencil", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  color: rgb(255 255 255);
+  word-spacing: 1px;
+  position: absolute;
+  top: 914px;
+  left: 995px;
+}
+.title_1 {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(255 255 255);
+  word-spacing: 5px;
+  font-size: 48px;
+  position: absolute;
+  top: 318px;
+  left: 923px;
+}
+
+.title_2 {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(255 255 255);
+  word-spacing: 53px;
+  font-size: 96px;
+  position: absolute;
+  top: 381px;
+  left: 923px;
+}
+.title_3 {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(255 255 255);
+  word-spacing: 18px;
+  font-size: 48px;
+  position: absolute;
+  top: 495px;
+  left: 923px;
+}
+.title_4 {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(255 255 255);
+  word-spacing: 18px;
+  font-size: 48px;
+  position: absolute;
+  top: 569px;
+  left: 923px;
+}
+.authorname {
+  font-family: "Cabin Condensed", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255 255 255);
+  word-spacing: 60px;
+  font-size: 80px;
+  position: absolute;
+  top: 116px;
+  left: 266px;
+}
